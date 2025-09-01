@@ -15,7 +15,7 @@ SmartLearn is an advanced video learning platform that implements **accurate pro
 ## 🏗️ System Architecture
 
 ### Frontend Structure
-\`\`\`
+```
 components/
 ├── smart-video-player.tsx    # Advanced video player with intelligent tracking
 ├── progress-analytics.tsx    # Real-time progress visualization
@@ -39,7 +39,7 @@ app/
 /api/courses              # GET: Fetch all courses
 /api/courses/[id]         # GET: Fetch specific course
 /api/progress/[courseId]  # GET/POST: Progress tracking endpoints
-\`\`\`
+```
 
 ## 🔍 How Watched Intervals Are Tracked
 
